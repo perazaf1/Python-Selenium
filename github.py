@@ -1,6 +1,6 @@
 from selenium import webdriver 
 
-# get variable to get driver
+# create variable to get driver
 driver = webdriver.Chrome(executable_path="chromedriver.exe")
 driver.get("https://github.com/login")
 

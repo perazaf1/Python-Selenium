@@ -6,11 +6,11 @@ driver.get("https://github.com/login")
 
 # username field
 user_bar = driver.find_element_by_id("login_field")
-user_bar.send_keys("perazaf1")
+user_bar.send_keys("YOUR USERNAME HERE")
 
 # password field 
 pswd_bar = driver.find_element_by_id("password")
-pswd_bar.send_keys("paulemile_2701")
+pswd_bar.send_keys("YOUR PASSWORD HERE")
 
 # click on "sign in" button
 connect_btn = driver.find_element_by_class_name("btn-primary")
